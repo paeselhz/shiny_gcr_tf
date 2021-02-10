@@ -11,7 +11,7 @@ shinyUI(
     ##-- Logo ----
     div(style="padding: 1px 0px; width: '100%'",
         titlePanel(
-          title="", windowTitle = "Shiny Test WebApp"
+          title="", windowTitle = "Shiny Test WebApp - New Version"
         )
     ),
     theme = "styles.css",
@@ -27,7 +27,7 @@ shinyUI(
         value = "home",
         hr(),
         column(width = 12,
-               h1("Shiny Test WebApp")),
+               h1("Shiny Test WebApp - New Version")),
         br()
       )
     )
